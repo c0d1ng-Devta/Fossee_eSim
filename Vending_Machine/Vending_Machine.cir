@@ -1,0 +1,78 @@
+* C:\eSim-Workspace\Vending_Machine\Vending_Machine.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 05/16/21 01:33:25
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U10  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U10-Pad6_ S2CS S1CS S0CS DCS C2CS C1CS C0CS Chola_Samosa		
+U15  S0 S0CD S0CS Net-_U15-Pad4_ or_3		
+U13  S1 S1CD S1CS Net-_U13-Pad4_ or_3		
+U11  S2 S2CD S2CS Net-_U11-Pad4_ or_3		
+U12  C0CD C0 C0CS Net-_U12-Pad4_ or_3		
+U14  C1CD C1 C1CS Net-_U14-Pad4_ or_3		
+U17  C2 C2CD C2CS Net-_U17-Pad4_ or_3		
+U19  D DCD DCS Net-_U19-Pad4_ or_3		
+U31  Net-_U15-Pad4_ Net-_U13-Pad4_ Net-_U11-Pad4_ Net-_U18-Pad2_ Net-_U31-Pad5_ Net-_U31-Pad6_ Net-_U31-Pad7_ Net-_U31-Pad8_ Net-_U31-Pad9_ Net-_U31-Pad10_ Net-_U31-Pad11_ BCD_7Seg		
+U29  Net-_U12-Pad4_ Net-_U14-Pad4_ Net-_U17-Pad4_ Net-_U18-Pad2_ Net-_U29-Pad5_ Net-_U29-Pad6_ Net-_U29-Pad7_ Net-_U29-Pad8_ Net-_U29-Pad9_ Net-_U29-Pad10_ Net-_U29-Pad11_ BCD_7Seg		
+U30  Net-_U19-Pad4_ Net-_U18-Pad2_ Net-_U18-Pad2_ Net-_U18-Pad2_ Net-_U30-Pad5_ Net-_U30-Pad6_ Net-_U30-Pad7_ Net-_U30-Pad8_ Net-_U30-Pad9_ Net-_U30-Pad10_ Net-_U30-Pad11_ BCD_7Seg		
+v3  Sandwich Net-_R4-Pad2_ DC		
+v4  COldDrink Net-_R5-Pad2_ DC		
+v5  Chola_Samosa Net-_R6-Pad2_ DC		
+v1  X1 Net-_R2-Pad2_ DC		
+v2  X0 Net-_R3-Pad2_ DC		
+U4  X1 X0 Net-_U10-Pad4_ Net-_U10-Pad5_ adc_bridge_2		
+v6  Net-_U16-Pad1_ Net-_R7-Pad2_ pulse		
+U16  Net-_U16-Pad1_ Clock adc_bridge_1		
+U43  Net-_U34-Pad8_ plot_v1		
+U53  Net-_U34-Pad9_ plot_v1		
+U44  Net-_U34-Pad10_ plot_v1		
+U54  Net-_U34-Pad11_ plot_v1		
+U55  Net-_U34-Pad13_ plot_v1		
+U45  Net-_U34-Pad12_ plot_v1		
+U46  Net-_U34-Pad14_ plot_v1		
+U39  Net-_U33-Pad8_ plot_v1		
+U50  Net-_U33-Pad9_ plot_v1		
+U40  Net-_U33-Pad10_ plot_v1		
+U51  Net-_U33-Pad11_ plot_v1		
+U52  Net-_U33-Pad13_ plot_v1		
+U41  Net-_U33-Pad12_ plot_v1		
+U42  Net-_U33-Pad14_ plot_v1		
+U35  Net-_U32-Pad8_ plot_v1		
+U47  Net-_U32-Pad9_ plot_v1		
+U36  Net-_U32-Pad10_ plot_v1		
+U48  Net-_U32-Pad11_ plot_v1		
+U49  Net-_U32-Pad13_ plot_v1		
+U37  Net-_U32-Pad12_ plot_v1		
+U38  Net-_U32-Pad14_ plot_v1		
+U2  X1 plot_v1		
+U1  X0 plot_v1		
+U5  Sandwich plot_v1		
+U6  COldDrink plot_v1		
+U3  Chola_Samosa plot_v1		
+U7  Sandwich COldDrink Chola_Samosa Net-_U7-Pad4_ Net-_U7-Pad5_ Net-_U10-Pad6_ adc_bridge_3		
+U32  Net-_U29-Pad5_ Net-_U29-Pad6_ Net-_U29-Pad7_ Net-_U29-Pad8_ Net-_U29-Pad9_ Net-_U29-Pad10_ Net-_U29-Pad11_ Net-_U32-Pad8_ Net-_U32-Pad9_ Net-_U32-Pad10_ Net-_U32-Pad11_ Net-_U32-Pad12_ Net-_U32-Pad13_ Net-_U32-Pad14_ dac_bridge_7		
+U34  Net-_U31-Pad5_ Net-_U31-Pad6_ Net-_U31-Pad7_ Net-_U31-Pad8_ Net-_U31-Pad9_ Net-_U31-Pad10_ Net-_U31-Pad11_ Net-_U34-Pad8_ Net-_U34-Pad9_ Net-_U34-Pad10_ Net-_U34-Pad11_ Net-_U34-Pad12_ Net-_U34-Pad13_ Net-_U34-Pad14_ dac_bridge_7		
+U33  Net-_U30-Pad5_ Net-_U30-Pad6_ Net-_U30-Pad7_ Net-_U30-Pad8_ Net-_U30-Pad9_ Net-_U30-Pad10_ Net-_U30-Pad11_ Net-_U33-Pad8_ Net-_U33-Pad9_ Net-_U33-Pad10_ Net-_U33-Pad11_ Net-_U33-Pad12_ Net-_U33-Pad13_ Net-_U33-Pad14_ dac_bridge_7		
+U9  Net-_U25-Pad3_ Net-_U24-Pad3_ Net-_U23-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U7-Pad5_ S2CD S1CD S0CD DCD C2CD C1CD C0CD ColdDrink		
+U18  Net-_R1-Pad2_ Net-_U18-Pad2_ adc_bridge_1		
+U8  Net-_U22-Pad3_ Net-_U21-Pad3_ Net-_U20-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U7-Pad4_ S2 S1 S0 D C2 C1 C0 Sandwich		
+U20  S0 Clock Net-_U20-Pad3_ D_flipflop		
+U21  S1 Clock Net-_U21-Pad3_ D_flipflop		
+U22  S2 Clock Net-_U22-Pad3_ D_flipflop		
+U23  S0CD Clock Net-_U23-Pad3_ D_flipflop		
+U24  S1CD Clock Net-_U24-Pad3_ D_flipflop		
+U25  S2CD Clock Net-_U25-Pad3_ D_flipflop		
+U26  S0CS Clock Net-_U10-Pad3_ D_flipflop		
+U27  S1CS Clock Net-_U10-Pad2_ D_flipflop		
+U28  S2CS Clock Net-_U10-Pad1_ D_flipflop		
+R4  GND Net-_R4-Pad2_ 1k		
+R5  GND Net-_R5-Pad2_ 1k		
+R6  GND Net-_R6-Pad2_ 1k		
+R3  GND Net-_R3-Pad2_ 1k		
+R2  GND Net-_R2-Pad2_ 1k		
+R7  GND Net-_R7-Pad2_ 1k		
+R1  GND Net-_R1-Pad2_ 1k		
+
+.end
